@@ -3,10 +3,7 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-*.main-container{
-    overflow-x: hidden;
 
-}
 /* ------------------
     universal section 
    -------------------*/
@@ -429,11 +426,7 @@ End of  fifth section
     .upper-section-title {
         margin-right: 250px;
         margin-left: 0;
-    }
-    .main-container {
-        overflow-x: hidden;
-    }
-
+    }   
     .banner-text h1 {
         text-align: center;
     }
