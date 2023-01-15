@@ -242,9 +242,8 @@ End of third section
     margin: 40px auto 0;
 }
 
-.icon-text-4 h1,
-p {
-    justify-content: left;
+.section-4-upper p {
+    text-align: left;
 }
 
 .icon-text-4 h1 {
@@ -275,28 +274,68 @@ p {
 
 .icon-text .number {
     font-weight: 600;
-    color: white;
+    color: #424242;
     font-size: 30px
 }
-.icon-text .skills{
-    color: white;
+
+.icon-text .skills {
+    color: #727272;
     font-weight: 600;
 }
+
 /*------------------
  bonus hover effect
  ------------------- */
 
 .icon-text:hover {
-    background-color: ;
+    background-color: brown;
     transform: rotate(360deg)
 }
 
 .icon-text {
-    background-color: brown;
     transition: 1.5s;
 }
 
 /* --------------------------
 End of fourth section 
 -----------------------------*/
+
+.sponsor-section {
+    max-width: 1000px;
+    margin: 70px auto 0;
+}
+
+.section-5-upper h1,
+p {
+    text-align: center;
+}
+
+.section-5-upper h1 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-5-upper p {
+    margin-top: 10px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.sponsor-section-image {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sponsor-section-image img {
+    width: 100px;
+    height: 40px;
+}
+
+/* ----------------------
+End of  fifth section 
+-------------------------*/
 
